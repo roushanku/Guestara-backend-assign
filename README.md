@@ -21,8 +21,8 @@ This project provides a **REST API** for managing **categories, subcategories, a
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-repo.git
-cd category-management
+git clone https://github.com/roushanku/Guestara-backend-assign.git
+cd guestara
 ```
 
 ### 2️⃣ Install Dependencies

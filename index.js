@@ -9,6 +9,10 @@ const app = express();
 app.use(express.json());
 app.use("/api", rootRouter);
 
+app.get("/health" , (req, res)=>{
+    res.send("Server is running");
+});
+
 connectDB();
 
 app.listen(PORT, ()=>{
